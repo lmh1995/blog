@@ -1,4 +1,12 @@
 <?php
+/*
+ * @Author: your name
+ * @Date: 2020-09-01 22:03:01
+ * @LastEditTime: 2020-09-04 20:59:28
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \debugd:\GitProject\www2\blog\routes\web.php
+ */
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +22,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('db/model','DBController@model');
